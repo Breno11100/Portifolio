@@ -1,0 +1,84 @@
+/* RESPONSIVIDADE */
+
+@media(max-width: 900px){
+
+  header{
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 20px 5%;
+
+    gap: 15px;
+  }
+
+  header h1{
+    font-size: 24px;
+  }
+
+  nav{
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 8px;
+
+    flex-wrap: nowrap;
+  }
+
+  nav a{
+    font-size: 14px;
+
+    padding: 10px 12px;
+  }
+
+  .hero{
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+    min-height: auto;
+
+    padding: 180px 5% 80px;
+  }
+
+  .hero-text h2{
+    font-size: 42px;
+
+    line-height: 50px;
+  }
+
+  .hero-text h3{
+    font-size: 24px;
+  }
+
+  .hero-buttons{
+    justify-content: center;
+  }
+
+  .hero-image img{
+    width: 240px;
+    height: 240px;
+  }
+
+  .about-content{
+    flex-direction: column;
+  }
+
+  .about-cards{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-links{
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+}
